@@ -42,3 +42,46 @@ LocalStorage Persistence: Tasks are saved in localStorage so data persists on re
 Single File Structure: Kept all logic in App.jsx for simplicity and to meet assessment scope.
 
 
+                                                          Trade-offs
+No Backend: Limits data persistence to the user's browser only (not sharable across devices).
+
+Single Component Approach: While easy to follow, it can become harder to maintain with scaling. Modularization would be a future improvement.
+
+LocalStorage: Easy and fast, but not secure or scalable for multi-user applications.
+
+@hello-pangea/dnd: Used instead of the deprecated react-beautiful-dnd for compatibility with modern React.
+
+                                                                  Features
+Add, edit, delete tasks
+
+Mark tasks as completed or revert to pending
+
+Filter tasks by:
+
+All
+
+Pending
+
+Completed
+
+Overdue
+
+Drag and drop to reorder tasks (pending only)
+
+Modal form for task input
+
+Responsive and accessible UI
+
+Error messages for validation
+
+
+                                                                Future Enhancements
+Split code into modular components (e.g., TaskList, TaskForm, FilterBar)
+
+Add backend integration (e.g. Firebase, Supabase)
+
+Introduce unit tests and integration testing
+
+Enable user authentication and sync
+
+Add reminders or due-date notifications
