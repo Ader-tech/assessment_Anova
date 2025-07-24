@@ -28,3 +28,17 @@ npm install
 
 # Start the development server
 npm start
+
+
+                                          Architectural Decisions
+React Functional Components & Hooks: The entire UI is managed through React state and effects.
+
+CSS Modules: Scoped styles using App.module.css to avoid class name collisions and improve modularity.
+
+Drag-and-Drop: Implemented using @hello-pangea/dnd due to compatibility with current React versions.
+
+LocalStorage Persistence: Tasks are saved in localStorage so data persists on refresh without a backend.
+
+Single File Structure: Kept all logic in App.jsx for simplicity and to meet assessment scope.
+
+
