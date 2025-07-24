@@ -5,7 +5,7 @@ A lightweight, responsive task manager built with *React* and *@hello-pangea/dnd
 
 ##  Live Project
 
-Hosted on vercel: [https://github.com/Ader-tech/assessment_Anova](https://github.com/Ader-tech/assessment_Anova)
+Hosted on vercel: [https://github.com/Ader-tech/assessment_Anova](https://assessment-anova.vercel.app/)
 
 
 ## 📦 Setup Instructions
